@@ -12,10 +12,14 @@ public class Condition {
 
 	public static void main(String[] args) {
 		
+		// 변수 정의
+		
 		int dist = 10;
 		int total_fee = 0;
 		String car_type = "고속버스";
 		
+		
+		// 요금 계산
 		
 		switch(car_type) {
 		case "고속버스":
@@ -38,9 +42,10 @@ public class Condition {
 			break;
 		}
 		
-
-		System.out.println("<< 고속도로 통행료 계산 >>");
 		
+		// 출력
+		
+		System.out.println("<< 고속도로 통행료 계산 >>");
 		System.out.println("거리 : " + dist + "km");
 		System.out.println("차종 : " + car_type);
 		System.out.println("통행료 : " + total_fee + "원");
