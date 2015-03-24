@@ -2,7 +2,7 @@
  * 요금 계산 프로그램
  * 2015.3.23
  * @author 김우범
- * @version 1.0
+ * @version 1.1
  */
 
 
@@ -12,26 +12,26 @@ public class Condition {
 
 	public static void main(String[] args) {
 		
-		int dist = 10;
+		int dist = 25;
 		int total_fee = 0;
-		String car_type = "고속버스";
+		String car_type = "";
 		
 		
 		switch(car_type) {
 		case "고속버스":
 			total_fee += 850;
-			total_fee += ((dist/10) - 1) * 300;
+			total_fee += (dist/10) * 300;
 			break;
 			
 		case "경차":
 			total_fee += 300;
-			total_fee += ((dist/10) - 1) * 200;
+			total_fee += (dist/10) * 200;
 			break;
 			
 		default:
 			car_type = "그 외";
 			total_fee += 600;
-			total_fee += ((dist/10) - 1) * 200;
+			total_fee += (dist/10) * 200;
 			break;
 		}
 		
