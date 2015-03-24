@@ -9,7 +9,7 @@ package org.dimigo.basic;
 public class Operator {
 	
 	public static void main(String[] args) {
-		
+	
 		int ladder_a = 9, ladder_b = 10;
 		int par_a = 9;
 		double ladder_h = 5.8;
