@@ -13,7 +13,7 @@ package org.dimigo.oop;
  * </pre>
  *
  * @author 		: 김우범
- * @version 	: 1.0
+ * @version 	: 1.1
  */
 public class CarTest {
 
@@ -64,11 +64,11 @@ public class CarTest {
 		
 		System.out.println("");
 		
-		System.out.println("제조사명 : " + car2.GetCompany());
-		System.out.println("모델명 : " + car2.GetModel());
-		System.out.println("색상 : " + car2.GetColor());
-		System.out.println("최대속도 : " + car2.GetMaxSpeed() + "km");
-		System.out.println("가격 : " + String.format("%,d", car2.GetPrice()) + "원");
+		System.out.println("제조사명 : " + car3.GetCompany());
+		System.out.println("모델명 : " + car3.GetModel());
+		System.out.println("색상 : " + car3.GetColor());
+		System.out.println("최대속도 : " + car3.GetMaxSpeed() + "km");
+		System.out.println("가격 : " + String.format("%,d", car3.GetPrice()) + "원");
 	}
 
 }
