@@ -16,59 +16,63 @@ package org.dimigo.oop;
  * @version 	: 1.0
  */
 public class Car {
+	
+	// Declaration
+	
 	private String company;
 	private String model;
 	private String color;
 	private int maxSpeed;
 	private int price;
 	
-	public String GetCompany()
-	{
+	
+	// Functions
+	
+	public String GetCompany() {
 		return company;
 	}
 	
-	public void SetCompany(String com)
-	{
+	public void SetCompany(String com) {
 		company = com;
 	}
 	
-	public String GetModel()
-	{
+	
+	
+	public String GetModel() {
 		return model;
 	}
 	
-	public void SetModel(String mod)
-	{
+	public void SetModel(String mod) {
 		model = mod;
 	}
 	
-	public String GetColor()
-	{
+	
+	
+	public String GetColor() {
 		return color;
 	}
 	
-	public void SetColor(String clr)
-	{
+	public void SetColor(String clr) {
 		color = clr;
 	}
 	
-	public int GetMaxSpeed()
-	{
+	
+	
+	public int GetMaxSpeed() {
 		return maxSpeed;
 	}
 	
-	public void SetMaxSpeed(int speed)
-	{
+	public void SetMaxSpeed(int speed) {
 		maxSpeed = speed;
 	}
 	
-	public int GetPrice()
-	{
+	
+	
+	public int GetPrice() {
 		return price;
 	}
 	
-	public void SetPrice(int prc)
-	{
+	public void SetPrice(int prc) {
 		price = prc;
 	}
 }

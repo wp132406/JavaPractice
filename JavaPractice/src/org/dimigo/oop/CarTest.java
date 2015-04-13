@@ -19,6 +19,8 @@ public class CarTest {
 
 	public static void main(String[] args) {
 		
+		// Declaration
+		
 		Car car1 = new Car();
 		Car car2 = new Car();
 		Car car3 = new Car();
@@ -42,6 +44,7 @@ public class CarTest {
 		car3.SetPrice(38000000);
 		
 		
+		// Output
 		
 		System.out.println("<< 자동차 목록 >>");
 		
