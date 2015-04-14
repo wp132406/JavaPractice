@@ -26,7 +26,7 @@ public class Car3 {
 	private int price;
 	
 	
-	// Constructor
+	// Constructor  
 	
 	public Car3(String company, String model, String color, int maxSpeed, int price)
 	{
