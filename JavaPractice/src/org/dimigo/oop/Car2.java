@@ -13,7 +13,7 @@ package org.dimigo.oop;
  * </pre>
  *
  * @author 		: 김우범
- * @version 	: 1.0
+ * @version 	: 1.1
  */
 public class Car2 {
 	
@@ -37,6 +37,28 @@ public class Car2 {
 		price = newPrice;
 	}
 	
+	
+	// Trash can
+
+//	public void SetCompany(String com) {
+//		company = com;
+//	}
+//	
+//	public void SetModel(String mod) {
+//		model = mod;
+//	}
+//	
+//	public void SetColor(String clr) {
+//		color = clr;
+//	}
+//
+//	public void SetMaxSpeed(int speed) {
+//		maxSpeed = speed;
+//	}
+//
+//	public void SetPrice(int prc) {
+//		price = prc;
+//	}
 	
 	// Functions
 	
