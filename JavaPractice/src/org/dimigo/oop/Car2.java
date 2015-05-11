@@ -28,6 +28,9 @@ public class Car2 {
 	
 	// Constructor
 	
+	public Car2()	// 이건 일단 만들고 봅니다
+	{ }
+	
 	public Car2(String newCompany, String newModel, String newColor, int newMaxSpeed, int newPrice)
 	{
 		company = newCompany;
