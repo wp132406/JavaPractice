@@ -53,12 +53,11 @@ public class Score {
 		
 		// Chaining
 		
-				sb.append("국어 점수 : ").append(sub1 + "점\n")
-					.append("수학 점수 : ").append(sub2 + "점\n")
-					.append("영어 점수 : ").append(sub3 + "점\n")
-					.append("총점 : ").append(total + "점\n")
-					.append("평균 : ").append(String.format("%.1f", (float)total/3) + "점");
-				
+		sb.append("국어 점수 : ").append(sub1 + "점\n")
+			.append("수학 점수 : ").append(sub2 + "점\n")
+			.append("영어 점수 : ").append(sub3 + "점\n")
+			.append("총점 : ").append(total + "점\n")
+			.append("평균 : ").append(String.format("%.1f", total/3.0) + "점");
 				
 		
 		// Output
