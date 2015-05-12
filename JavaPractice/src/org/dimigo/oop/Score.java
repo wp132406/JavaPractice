@@ -15,8 +15,9 @@ import java.util.Scanner;
  * </pre>
  *
  * @author 		: 김우범
- * @version 	: 1.0
+ * @version 	: 1.1
  */
+
 public class Score {
 	
 	public static void main(String[] args) {
@@ -41,10 +42,13 @@ public class Score {
 		sub3 = scan.nextInt();
 		
 		
+		// Preparing...
+		
+		scan.close();
+		
 		System.out.println();
 		StringBuilder sb = new StringBuilder();
 		int total = sub1 + sub2 + sub3;
-		
 		
 		
 		// Chaining
