@@ -70,5 +70,7 @@ public class Question {
 		{
 			System.out.println("틀렸습니다.");
 		}
+		
+		scan.close();
 	}
 }
