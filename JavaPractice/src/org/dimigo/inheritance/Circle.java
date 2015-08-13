@@ -13,7 +13,7 @@ package org.dimigo.inheritance;
  * </pre>
  *
  * @author 		: 김우범
- * @version 	: 1.0
+ * @version 	: 1.1
  */
 public class Circle extends Figure {
 
@@ -21,8 +21,7 @@ public class Circle extends Figure {
 	
 	public Circle(int radius) 
 	{
-		super(0, 0);
-		this.radius = radius;
+		this(0, 0, radius);
 	}
 	
 	public Circle(int centerX, int centerY, int radius) 

@@ -13,7 +13,7 @@ package org.dimigo.inheritance;
  * </pre>
  *
  * @author 		: 김우범
- * @version 	: 1.0
+ * @version 	: 1.1
  */
 public class Triangle extends Figure {
 	
@@ -22,9 +22,7 @@ public class Triangle extends Figure {
 	
 	public Triangle(int width, int height)
 	{
-		super(0, 0);
-		this.width = width;
-		this.height = height;
+		this(0, 0, width, height);
 	}
 	
 	public Triangle(int centerX, int centerY, int width, int height)
@@ -38,6 +36,4 @@ public class Triangle extends Figure {
 	{
 		return width * height * 0.5;
 	}
-
-
 }
