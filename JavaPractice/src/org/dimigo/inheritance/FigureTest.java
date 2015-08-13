@@ -13,7 +13,7 @@ package org.dimigo.inheritance;
  * </pre>
  *
  * @author 		: 김우범
- * @version 	: 1.0
+ * @version 	: 1.1
  */
 public class FigureTest {
 
@@ -37,6 +37,8 @@ public class FigureTest {
 		r.printCenter();
 		
 		System.out.println();
+		
+		// move 5, 5
 		
 		c.moveFigure(5, 5);
 		t.moveFigure(5, 5);
