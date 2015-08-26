@@ -19,19 +19,18 @@ public class SmartPhoneTest {
 	
 	public static void main(String[] args) {
 		
-		SmartPhone iphone = new IPhone("iPhone 6", "애플", 700000);
-		SmartPhone galaxy = new Galaxy("갤럭시 S6", "삼성", 650000);
+		SmartPhone[] phones = {
+				new IPhone("iPhone 6", "애플", 700000),
+				new Galaxy("갤럭시 S6", "삼성", 650000)
+		};
 		
-		iphone.turnOn();
-		iphone.pay();
-		iphone.useSpecialFunction(iphone);
-		iphone.turnOff();
-		
-		System.out.println();
-		
-		galaxy.turnOn();
-		galaxy.pay();
-		galaxy.useSpecialFunction(galaxy);
-		galaxy.turnOff();
+		for(SmartPhone p : phones) {
+			System.out.println(p);
+			p.turnOn();
+			p.pay();
+			p.useSpecialFunction();
+			p.turnOff();
+			System.out.println();
+		}
 	}
 }

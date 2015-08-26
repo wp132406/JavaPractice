@@ -44,14 +44,14 @@ public class SmartPhone {
 		
 	}
 	
-	public void useSpecialFunction(SmartPhone phone) {
-		if(phone instanceof IPhone) {
-			IPhone i = (IPhone)phone;
+	public void useSpecialFunction() {
+		if(this instanceof IPhone) {
+			IPhone i = (IPhone)this;
 			i.useAirDrop();
 		}
 		
-		else if(phone instanceof Galaxy) {
-			Galaxy i = (Galaxy)phone;
+		else if(this instanceof Galaxy) {
+			Galaxy i = (Galaxy)this;
 			i.useWirelessCharging();
 		}
 	}
