@@ -13,7 +13,7 @@ package org.dimigo.exception;
  * </pre>
  *
  * @author 		: 김우범
- * @version 	: 1.0
+ * @version 	: 1.1
  */
 public class MovieTest {
 
@@ -23,22 +23,20 @@ public class MovieTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		// 해당 코드는 오류 수정을 거치지 않은 코드입니다.
+		Movie[] movies = {
+				new Movie("베테랑", 15),
+				new Movie("앤트맨", 12), 
+				new Movie("사도", 12)
+		};
 		
-		try {
-			Movie[] movies = {
-					new Movie("앤트맨", 12), 
-					new Movie("사도", 12),
-					new Movie("베테랑", 15)
-			};
+		int age = 13;
+		for (Movie movie : movies) {
 			
-			int age = 13;
-			
-			for (Movie movie : movies) {
+			try {
 				buyTicket(movie, age);
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
 			}
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
 		}
 	}
 	
