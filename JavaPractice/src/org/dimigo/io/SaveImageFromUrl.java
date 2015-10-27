@@ -31,7 +31,7 @@ public class SaveImageFromUrl {
 			URL url = new URL(imageUrl);
 			
 			InputStream is = url.openStream();
-			OutputStream os = new FileOutputStream("files/muse.png");
+			OutputStream os = new FileOutputStream("files/muse.jpg");
 			
 			// write
 			
