@@ -24,14 +24,14 @@ public class SaveImageFromUrl {
 	
 	public static void main(String[] args) throws Exception {
 		
-		String imageUrl = "http://muse-cdn.warnerartists.com/ugc-1/gallery/4392/10920_original.jpg";
+		String imageUrl = "http://i.ytimg.com/vi/lkzCStrHwcU/maxresdefault.jpg?width=70%http://www.coldplay.com/livetransmissions/298_med_20120907171927.jpg";
 		
 		
 		try {
 			URL url = new URL(imageUrl);
 			
 			InputStream is = url.openStream();
-			OutputStream os = new FileOutputStream("files/muse.jpg");
+			OutputStream os = new FileOutputStream("files/logo.png");	// Actually, NOT LOGO
 			
 			// write
 			
