@@ -54,7 +54,7 @@ public class NaverSearch {
 	    	os.print("키워드를 입력하세요 => ");
 	    	
 	    	keyword = br.readLine();
-	    	
+
 	    	StringBuffer sb = new StringBuffer(NAVER_OPEN_URL);
 	    	sb.append("?key=").append(SEARCH_KEY).append("&query=").append(keyword)
 	    	  .append("&display=10&start=1&target=movie");
@@ -107,7 +107,7 @@ public class NaverSearch {
 	        
 	        bw.flush();
 	        
-	    } catch (IOException e) {
+	    } catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
