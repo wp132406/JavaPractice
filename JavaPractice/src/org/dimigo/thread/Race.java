@@ -21,8 +21,8 @@ public class Race {
 		
 		System.out.println("main thread start");
 		
-		Runner r1 = new Runner("Mylo");
-		Runner r2 = new Runner("Xyloto");
+		Thread r1 = new Runner("Mylo");
+		Thread r2 = new Runner("Xyloto");
 		
 		r1.start();
 		r2.start();
